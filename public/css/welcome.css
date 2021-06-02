@@ -1,0 +1,104 @@
+.about{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding:30px;
+    font-family:Trattatello, fantasy;
+}
+
+.about-body{
+    min-height: 300px;
+    width: 100%;
+}
+
+.about-body .content{
+    min-height: 300px;
+    width: 90%;
+    margin-top: 60px;
+    margin-left: 100px;
+    text-align: justify;
+}
+
+.about-body img{
+    width: 100%;
+    height: 400px;
+}
+
+.contact{
+    margin-top: 50px;
+    margin-bottom: -30px;
+    text-align: center;
+}
+
+.contact .contact-left{
+    background: black;
+    color: white;
+    height: 600px;
+
+}
+
+.contact .contact-left img{
+
+    margin-top: 130px;
+    width: 100%;
+    height: 200px;
+
+}
+
+.contact .contact-left .contact-left-content{
+    margin-top: 40px;
+}
+
+.contact .contact-right{
+    background: rosybrown;
+    min-height: 600px;
+
+}
+.contact .contact-right .contact-right-head{
+    height: 40px;
+    text-align: center;
+}
+
+.contact .contact-right .contact-right-head h1{
+    padding: 40px;
+}
+
+.contact .contact-right .contact-right-content{
+    margin-top: 100px;
+    width: 70%;
+}
+
+.contact .contact-right .contact-right-content input[type="submit"]{
+    margin: 0px;
+}
+
+@media only screen and (max-width: 700px){
+    .about{
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        padding:30px;
+        font-family:Trattatello, fantasy;
+    }
+    
+    .about-body{
+        min-height: 300px;
+        width: 100%;
+    }
+    
+    .about-body .content{
+        min-height: 300px;
+        width: 100%;
+        text-align: justify;
+        margin: 0px;
+        padding-left: 40px;
+    }
+    
+    .about-body img{
+        width: 100%;
+        height: auto;
+        padding-left: 40px;
+    }
+ 
+
+}

@@ -1,0 +1,6 @@
+.detail{
+    background: lime;
+}
+.detail .detail-body img{
+    border-radius: 10px;
+}

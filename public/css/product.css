@@ -1,0 +1,28 @@
+.middle .thumbnail{
+    min-height: 300px;
+    min-width:250px ;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+.middle .thumbnail img{
+    max-height:200px;
+    width: 300px;
+}
+
+
+@media only screen and (max-width: 700px){
+    .middle .thumbnail{
+        min-height: 300px;
+        width:270px ;
+        margin-top: 15px;
+        padding: 20px;
+    }
+    
+    .middle .thumbnail img{
+        max-height:200px;
+        width: 400px;
+    }
+ 
+
+}
